@@ -1,0 +1,72 @@
+body {
+    background-image: url(images/squares_bg.png);
+    background-repeat: repeat;
+    font-family: sans-serif;
+    color: gray;
+}
+
+main {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1, h2 {
+    color: #999999;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    border: 1px solid #333333;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+    color: sienna;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:active {
+    color: green;
+}
+
+.leftpic {
+    float: left;
+    border: 1px solid #333333;
+    margin: 0 20px 0 0;
+}
+
+.rightpic {
+    float: right;
+    border: 1px solid #333333;
+    margin: 0 0 0 20px;
+}
+
+.redtext {
+    color: red;
+}
+
+.siennatext {
+    color: sienna;
+    font-style: italic;
+}
